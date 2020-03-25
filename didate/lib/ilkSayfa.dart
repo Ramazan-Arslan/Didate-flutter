@@ -1,8 +1,8 @@
 import 'package:didate/business11.dart';
 import 'package:didate/mainPage.dart';
+import 'package:didate/user1.dart';
 import 'package:flutter/material.dart';
 import 'Login.dart';
-import 'business1.dart';
 
 class ilkSayfa extends StatefulWidget {
   @override
@@ -76,7 +76,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                           child: FlatButton(
                               onPressed: () {
                                 Route route = MaterialPageRoute(
-                                    builder: (context) => mainPage());
+                                    builder: (context) => User1());
                                 Navigator.push(context, route);
                               },
                               child: Image.asset('assets/aa.jpg',colorBlendMode: BlendMode.darken, height: 175,
@@ -89,7 +89,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                       child: FlatButton(
                           onPressed: () {
                             Route route = MaterialPageRoute(
-                                builder: (context) => mainPage());
+                                builder: (context) => User1());
                             Navigator.push(context, route);
                           },
                           child: Text("Müşteri",style: TextStyle(
