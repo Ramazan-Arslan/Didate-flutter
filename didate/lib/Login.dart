@@ -1,3 +1,5 @@
+import 'package:didate/forgetPassword.dart';
+import 'package:didate/userMainPage.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
@@ -119,7 +121,7 @@ class _loginState extends State<Login> {
                               color: Color.fromRGBO(87, 51, 100, 100))),
                       onPressed: () {
                         Route route =
-                        MaterialPageRoute(builder: (context) => Login());
+                        MaterialPageRoute(builder: (context) => ForgetPassword());
                         Navigator.push(context, route);
                       },
                     ),
@@ -143,14 +145,14 @@ class _loginState extends State<Login> {
                     width: width * 0.6,
                     height: height * 0.05,
                     child: FlatButton(
-                      child: new Text("KAYDOL",
+                      child: new Text("GİRİŞ YAP",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 16,
                               color: Color.fromRGBO(87, 51, 100, 100))),
                       onPressed: () {
                         Route route =
-                            MaterialPageRoute(builder: (context) => Login());
+                            MaterialPageRoute(builder: (context) => UserMainPage());
                         Navigator.push(context, route);
                       },
                       color: Colors.blue,
