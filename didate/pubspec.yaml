@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
+  table_calendar: ^2.2.3
   passwordfield: ^0.0.5
   flutter:
 
@@ -44,17 +45,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/aa.jpg
-    - assets/facebook.png
-    - assets/bb.jpg
-    - assets/cc.jpg
-    - assets/dd.jpg
-    - assets/ee.jpg
-    - assets/ff.jpg
-    - assets/gg.jpg
-    - assets/jj.jpg
-    - assets/kk.png
-    - assets/ll.png
+    - assets/
 
   #   - images/a_dot_ham.jpeg
 
