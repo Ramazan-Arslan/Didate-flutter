@@ -15,6 +15,14 @@ class ilkSayfa extends StatefulWidget {
 class _ilkSayfaState extends State<ilkSayfa> {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery
+        .of(context)
+        .size
+        .width;
+    double height = MediaQuery
+        .of(context)
+        .size
+        .height;
     return Scaffold(
       backgroundColor:Colors.white,
       body: ListView(
@@ -26,8 +34,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
-                        width: 110,
-                        height: 50,
+                        width: width*0.27,
+                        height: height*0.09,
                         alignment: Alignment(0.5, 0.5),
                         child: new Text(
                           "DiDate",
@@ -41,8 +49,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                       ),
                       new Container(
                           alignment: Alignment(0.9, 0.5),
-                          width: 310,
-                          height: 60,
+                          width: width*0.7,
+                          height: height*0.09,
                           child: FlatButton(
                             child: new Text("OTURUM AÇ",
                                 style: TextStyle(
@@ -60,8 +68,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
-                        width: 390,
-                        height: 65,
+                        width: width,
+                        height: height*0.07,
                         alignment: Alignment(0, 0),
                         child: new Text(
                           "İlk defa mı uğruyorsunuz ?",
@@ -76,8 +84,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                     children: <Widget>[
                       new Container(
 
-                        height: 350,
-                        width: 250,
+                        height: height*0.45,
+                        width: width*0.62,
                         alignment: Alignment(0.5, 0.5),
                         child: ConstrainedBox(
                             constraints: BoxConstraints.expand(),
@@ -91,9 +99,9 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                       ),
                       new Container(
-
-                          height: 350,
-                          width: 142,
+                          color: Colors.amber,
+                          height: height*0.45,
+                          width: width*0.38,
                           alignment: Alignment(-1, 0),
                           child: FlatButton(
                               onPressed: () {
@@ -110,8 +118,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
-                        height: 20,
-                        width: 390,
+                        height: height*0.03,
+                        width: width,
                         alignment: Alignment(0.7, 0),
 
                       )
@@ -120,8 +128,10 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
+                        color: Colors.blue,
 
-                        height: 263,
+                        height: height*0.33,
+                        width: width*0.62,
 
                         child: ConstrainedBox(
                             constraints: BoxConstraints.expand(),
@@ -134,13 +144,11 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                 child: Image.asset('assets/bb.jpg',colorBlendMode: BlendMode.darken, height: 175,
                                   color: Color.fromRGBO(255, 255, 255, 100),
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
-                        width: 250,
                         alignment: Alignment(0.7, 0),
                       ),
                       new Container(
-
-                          height: 263,
-                          width: 142,
+                          width: width*0.38,
+                          height: height*0.33,
 
                           alignment: Alignment(-1, 0),
                           child: FlatButton(
