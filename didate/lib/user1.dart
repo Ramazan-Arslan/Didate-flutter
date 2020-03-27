@@ -33,20 +33,21 @@ class _User1State extends State<User1> {
                     width: width * 0.3,
                     height: height * 0.1,
                     child: new Text(
-                      "\nDidate",
+                      "\nDiDate",
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 25,
-                          color: Color.fromRGBO(87, 51, 100, 100)),
+                      style: TextStyle(fontWeight: FontWeight.w600,
+                          fontSize: 25,
+                          color: Color.fromRGBO(109, 82, 107, 100)),
                     ),
                   ),
                   SizedBox(
                     height: height * 0.1,
-                    width: width * 0.4,
+                    width: width * 0.32,
 
                   ),
 
                   FlatButton(
-                    child: new Text("Giriş Yap",
+                    child: new Text("OTURUM AÇ",
                         style: TextStyle(
                             fontSize: 20,
                             color: Color.fromRGBO(87, 51, 100, 100))),
@@ -84,17 +85,18 @@ class _User1State extends State<User1> {
                             ],
                           ),
                           SizedBox(
-                            height: height * 0.05,
+                            height: height * 0.1,
                             width: width * 1,
                           ),
                           Row(
                             children: <Widget>[
                               Container(
-                                height: height * 0.2,
+                                height: height * 0.15,
                                 width: width * 1,
                                 child: new Text("İŞLETMELERE KOLAYCA \nERİŞ!",
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 26,
+                                  style: TextStyle(fontSize: 24,
+                                      fontWeight: FontWeight.w500,
                                       color: Color.fromRGBO(
                                           87, 51, 100, 100)),),
 
@@ -107,11 +109,11 @@ class _User1State extends State<User1> {
                                 height: height * 0.15,
                                 width: width * 1,
                                 child: new Text(
-                                  "İşletmenin takvimine eriş hızlıca randevu oluştur.",
+                                  "İşletmenin takvimine eriş,\n hızlıca randevu oluştur.",
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 24,
+                                  style: TextStyle( fontSize: 20,
                                       color: Color.fromRGBO(
-                                          132, 111, 132, 100)),),
+                                          132, 111, 132, 75)),),
 
                               ),
                             ],
@@ -182,18 +184,19 @@ class _User1State extends State<User1> {
                             ],
                           ),
                           SizedBox(
-                            height: height * 0.05,
+                            height: height * 0.1,
                             width: width * 1,
                           ),
                           Row(
                             children: <Widget>[
                               Container(
-                                height: height * 0.2,
+                                height: height * 0.15,
                                 width: width * 1,
                                 child: new Text(
                                   "HATIRLATICIYLA RANDEVULARI KAÇIRMA!",
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 26,
+                                  style: TextStyle(fontSize: 24,
+                                      fontWeight: FontWeight.w500,
                                       color: Color.fromRGBO(
                                           87, 51, 100, 100)),),
 
@@ -206,11 +209,11 @@ class _User1State extends State<User1> {
                                 height: height * 0.15,
                                 width: width * 1,
                                 child: new Text(
-                                  "Aldıgın randevuların sana \nsms ile bildirelim. Hiçbir \n randevuyu unutma.",
+                                  "Aldığınız randevuları size sms ile bildirelim.\n Hiçbir randevuyu kaçırmayın.",
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 24,
+                                  style: TextStyle( fontSize: 20,
                                       color: Color.fromRGBO(
-                                          132, 111, 132, 100)),),
+                                          132, 111, 132, 75)),),
 
                               ),
                             ],
@@ -274,12 +277,12 @@ class _User1State extends State<User1> {
               Container(
                 height: height *0.07,
                 width: width * 1,
-                color: Colors.blue,
+                color: Color.fromRGBO(105, 95, 252, 100),
                 child: FlatButton(
                   child: new Text("ŞİMDİ KAYIT OLUN!",
                       style: TextStyle(
                           fontSize: 20,
-                          color: Color.fromRGBO(87, 51, 100, 100))),
+                          color: Color.fromRGBO(255, 255, 255, 1))),
                   onPressed: () {
                     Route route1 = MaterialPageRoute(
                         builder: (contex) => signUp());

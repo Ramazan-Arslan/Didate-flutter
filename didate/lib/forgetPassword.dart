@@ -44,8 +44,9 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                           "ŞİFRE SIFIRLA",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontSize: 26,
-                              color: Color.fromRGBO(87, 51, 100, 100)),
+                              fontSize: 28,
+                              fontWeight: FontWeight.w500,
+                              color: Color.fromRGBO(87, 51, 100, 50)),
                         ),
                       )
                     ],
@@ -97,19 +98,19 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                         width: width * 0.6,
                         height: height * 0.05,
                         child: FlatButton(
-                          child: new Text("ŞİFREMİ SIFIRLA",
+                          child: new Text("SIFIRLA",
                               textAlign: TextAlign.center,
 
                               style: TextStyle(
 
                                   fontSize: 16,
-                                  color: Color.fromRGBO(87, 51, 100, 100))),
+                                  color: Color.fromRGBO(250, 250, 250, 1))),
                           onPressed: () {
                             Route route =
                             MaterialPageRoute(builder: (context) => Login());
                             Navigator.push(context, route);
                           },
-                          color: Colors.blue,
+                          color: Color.fromRGBO(105, 95, 252, 100),
                         ),
                       ),
                       SizedBox(

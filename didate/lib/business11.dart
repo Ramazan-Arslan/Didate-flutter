@@ -28,7 +28,7 @@ class _business1State extends State<business11> {
               Column(
                 children: <Widget>[
                   SizedBox(
-                    height: height * 0.04,
+                    height: height * 0.005,
                     width: width,
                   ),
                   Row(
@@ -37,20 +37,22 @@ class _business1State extends State<business11> {
                         width: width * 0.3,
                         height: height * 0.1,
                         child: new Text(
-                          "\nDidate",
+                          "\nDiDate",
                           textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 25,
-                              color: Color.fromRGBO(87, 51, 100, 100)),
+                          style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 25,
+                              color: Color.fromRGBO(109, 82, 107, 100)),
                         ),
                       ),
                       SizedBox(
                         height: height * 0.1,
-                        width: width * 0.4,
+                        width: width * 0.32,
 
                       ),
 
                       FlatButton(
-                        child: new Text("Giriş Yap",
+                        child: new Text("OTURUM AÇ",
                             style: TextStyle(
                                 fontSize: 20,
                                 color: Color.fromRGBO(87, 51, 100, 100))),
@@ -88,17 +90,19 @@ class _business1State extends State<business11> {
                                 ],
                               ),
                               SizedBox(
-                                height: height * 0.05,
+                                height: height * 0.1,
                                 width: width * 1,
                               ),
                               Row(
                                 children: <Widget>[
                                   Container(
-                                    height: height * 0.2,
+                                    height: height * 0.15,
                                     width: width * 1,
                                     child: new Text("İŞLETMENİN TAKVİMİNİ OLUŞTUR",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 26,
+                                      style: TextStyle(
+                                          fontSize: 24,
+                                          fontWeight: FontWeight.w500,
                                           color: Color.fromRGBO(
                                               87, 51, 100, 100)),),
 
@@ -111,11 +115,12 @@ class _business1State extends State<business11> {
                                     height: height * 0.15,
                                     width: width * 1,
                                     child: new Text(
-                                      "KENDİ ÇALIŞMA SAATLERİNİ OLUŞTUR",
+                                      "Kendi çalışma saatlerini oluştur.",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 24,
+                                      style: TextStyle(
+                                          fontSize: 20,
                                           color: Color.fromRGBO(
-                                              132, 111, 132, 100)),),
+                                              132, 111, 132, 75)),),
 
                                   ),
                                 ],
@@ -206,18 +211,20 @@ class _business1State extends State<business11> {
                                   ],
                                 ),
                                 SizedBox(
-                                  height: height * 0.05,
+                                  height: height * 0.1,
                                   width: width * 1,
                                 ),
                                 Row(
                                   children: <Widget>[
                                     Container(
-                                      height: height * 0.2,
+                                      height: height * 0.15,
                                       width: width * 1,
                                       child: new Text(
-                                        "RANDEVULARINI KOLAYCA TAKİP ET",
+                                        "RANDEVULARINI\nKOLAYCA TAKİP ET",
                                         textAlign: TextAlign.center,
-                                        style: TextStyle(fontSize: 26,
+                                        style: TextStyle(
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.w500,
                                             color: Color.fromRGBO(
                                                 87, 51, 100, 100)),),
 
@@ -232,9 +239,10 @@ class _business1State extends State<business11> {
                                       child: new Text(
                                         "Müşterilerinin oluşturduğu randevuları uygulamadan pratik bir şekilde takip et.",
                                         textAlign: TextAlign.center,
-                                        style: TextStyle(fontSize: 24,
+                                        style: TextStyle(
+                                            fontSize: 20,
                                             color: Color.fromRGBO(
-                                                132, 111, 132, 100)),),
+                                                132, 111, 132, 75)),),
 
                                     ),
                                   ],
@@ -325,18 +333,20 @@ class _business1State extends State<business11> {
                                 ],
                               ),
                               SizedBox(
-                                height: height * 0.05,
+                                height: height * 0.1,
                                 width: width * 1,
                               ),
                               Row(
                                 children: <Widget>[
                                   Container(
-                                    height: height * 0.2,
+                                    height: height * 0.15,
                                     width: width * 1,
                                     child: new Text(
                                       "VAKİT KAZAN",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 26,
+                                      style: TextStyle(
+                                          fontSize: 24,
+                                          fontWeight: FontWeight.w500,
                                           color: Color.fromRGBO(
                                               87, 51, 100, 100)),),
 
@@ -349,11 +359,12 @@ class _business1State extends State<business11> {
                                     height: height * 0.15,
                                     width: width * 1,
                                     child: new Text(
-                                      "   Tüm müşterilerinle birebir ugraşmak zorunda kalma, zamandan kazan.",
+                                      "  Tüm müşterilerinle birebir ugraşmak\n zorunda kalma, zamandan kazan.",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 24,
+                                      style: TextStyle(
+                                          fontSize: 20,
                                           color: Color.fromRGBO(
-                                              132, 111, 132, 100)),),
+                                              132, 111, 132, 75)),),
 
                                   ),
                                 ],
@@ -444,18 +455,20 @@ class _business1State extends State<business11> {
                                 ],
                               ),
                               SizedBox(
-                                height: height * 0.05,
+                                height: height * 0.09,
                                 width: width * 1,
                               ),
                               Row(
                                 children: <Widget>[
                                   Container(
-                                    height: height * 0.2,
+                                    height: height * 0.15,
                                     width: width * 1,
                                     child: new Text(
-                                      "KALİTELİ OF !\nPROFOSYONEL GÜZÜK!",
+                                      "KALİTELİ OL!\nPROFESYONEL GÖZÜK!",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 26,
+                                      style: TextStyle(
+                                          fontSize: 24,
+                                          fontWeight: FontWeight.w500,
                                           color: Color.fromRGBO(
                                               87, 51, 100, 100)),),
 
@@ -468,11 +481,11 @@ class _business1State extends State<business11> {
                                     height: height * 0.15,
                                     width: width * 1,
                                     child: new Text(
-                                      "Hatırlatıcı sistemimizle müşterileriniz ve siz randevularınızı unutmayın, müşterileriniz gözünde kahraman olun",
+                                      "Hatırlatıcı sistemimizle müşterileriniz\n ve siz randevularınızı unutmayın\n müşterileriniz gözünde kahraman olun",
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 24,
+                                      style: TextStyle(fontSize: 20,
                                           color: Color.fromRGBO(
-                                              132, 111, 132, 100)),),
+                                              132, 111, 132, 75)),),
 
                                   ),
                                 ],
@@ -555,12 +568,12 @@ class _business1State extends State<business11> {
                   Container(
                     height: height *0.07,
                     width: width * 1,
-                    color: Colors.blue,
+                    color: Color.fromRGBO(105, 95, 252, 100),
                     child: FlatButton(
                       child: new Text("30 GÜN ÜCRETSİZ DENEYİN",
                           style: TextStyle(
                               fontSize: 20,
-                              color: Color.fromRGBO(87, 51, 100, 100))),
+                              color: Color.fromRGBO(255, 255, 255, 1))),
                       onPressed: () {
                         Route route1 = MaterialPageRoute(
                             builder: (contex) => signUp());

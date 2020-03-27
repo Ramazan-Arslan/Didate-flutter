@@ -1,7 +1,10 @@
+import 'dart:ui';
+
 import 'package:didate/business11.dart';
 import 'package:didate/mainPage.dart';
 import 'package:didate/user1.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'Login.dart';
 
 class ilkSayfa extends StatefulWidget {
@@ -23,23 +26,25 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
-                        width: 100,
-                        height: 100,
+                        width: 110,
+                        height: 50,
                         alignment: Alignment(0.5, 0.5),
                         child: new Text(
                           "DiDate",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontSize: 28,
-                              color: Color.fromRGBO(109, 82, 107, 100)),
+                              fontWeight: FontWeight.w600,
+                              fontSize: 25,
+                              color: Color.fromRGBO(109, 82, 107, 100),
+                          ),
                         ),
                       ),
                       new Container(
                           alignment: Alignment(0.9, 0.5),
-                          width: 292,
-                          height: 100,
+                          width: 310,
+                          height: 60,
                           child: FlatButton(
-                            child: new Text("Giriş Yap",
+                            child: new Text("OTURUM AÇ",
                                 style: TextStyle(
                                     fontSize: 20,
                                     color: Color.fromRGBO(87, 51, 100, 100))),
@@ -56,12 +61,12 @@ class _ilkSayfaState extends State<ilkSayfa> {
                     children: <Widget>[
                       new Container(
                         width: 390,
-                        height: 70,
+                        height: 65,
                         alignment: Alignment(0, 0),
                         child: new Text(
                           "İlk defa mı uğruyorsunuz ?",
                           style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 23,
                               color: Color.fromRGBO(132, 111, 132, 100)),
                         ),
                       )
@@ -70,6 +75,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
+
                         height: 350,
                         width: 250,
                         alignment: Alignment(0.5, 0.5),
@@ -85,6 +91,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                       ),
                       new Container(
+
                           height: 350,
                           width: 142,
                           alignment: Alignment(-1, 0),
@@ -95,7 +102,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                 Navigator.push(context, route);
                               },
                               child: Text("Müşteri",style: TextStyle(
-                                  fontSize: 28,
+                                  fontSize: 30,
                                   color: Color.fromRGBO(109, 82, 107, 100)),))
                       ),
                     ],
@@ -113,6 +120,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
+
                         height: 263,
 
                         child: ConstrainedBox(
@@ -124,13 +132,16 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                   Navigator.push(context, route);
                                 },
                                 child: Image.asset('assets/bb.jpg',colorBlendMode: BlendMode.darken, height: 175,
+                                  color: Color.fromRGBO(255, 255, 255, 100),
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                         width: 250,
                         alignment: Alignment(0.7, 0),
                       ),
                       new Container(
+
                           height: 263,
                           width: 142,
+
                           alignment: Alignment(-1, 0),
                           child: FlatButton(
                               onPressed: () {
@@ -139,7 +150,8 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                 Navigator.push(context, route);
                               },
                               child: Text("İşletme",style: TextStyle(
-                                  fontSize: 28,
+
+                                  fontSize: 30,
                                   color: Color.fromRGBO(109, 82, 107, 100)),))
                       )
                     ],

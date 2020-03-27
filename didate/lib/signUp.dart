@@ -44,12 +44,13 @@ class _signUpState extends State<signUp> {
                 children: <Widget>[
                   Container(
                     width: width,
-                    height: height * 0.1,
-                    child:  new Text("Kaydol",
+                    height: height * 0.08,
+                    child:  new Text("KAYIT OL",
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 26,
-                          color: Color.fromRGBO(
-                              87, 51, 100, 100)),),
+                      style: TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.w500,
+                          color: Color.fromRGBO(87, 51, 100, 50)),),
                   )
                 ],
               ),
@@ -59,10 +60,10 @@ class _signUpState extends State<signUp> {
 
                   Container(
                     width: width,
-                    height: height * 0.1,
+                    height: height * 0.05,
                     child:  new Text("İşletmenize uygun başlamak için kaydol.",
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 26,
+                      style: TextStyle(fontSize: 18,
                           color: Color.fromRGBO(
                               87, 51, 100, 100)),),
                   ),
@@ -109,7 +110,7 @@ class _signUpState extends State<signUp> {
                       decoration: const InputDecoration(
 
                         prefixIcon: Icon(Icons.person),
-                        labelText: 'Password',
+                        labelText: 'Şifre',
                           hintText: "Şifre"
                       ),
 
@@ -135,7 +136,7 @@ class _signUpState extends State<signUp> {
                       decoration: const InputDecoration(
 
                           prefixIcon: Icon(Icons.person),
-                          labelText: 'Password Repeat',
+                          labelText: 'Şifre Tekrarı',
                           hintText: "Şifre Tekrarı"
                       ),
 
@@ -162,8 +163,8 @@ class _signUpState extends State<signUp> {
                     child: new Text("Kullanıcı Sözleşmesini",
                         style: TextStyle(
                           decoration: TextDecoration.underline,
-                            fontSize: 16,
-                            color: Color.fromRGBO(87, 51, 100, 100))),
+                            fontSize: 12,
+                            color: Color.fromRGBO(132, 111, 132, 10))),
                     onPressed: () {
 
                       Route route = MaterialPageRoute(
@@ -171,8 +172,9 @@ class _signUpState extends State<signUp> {
                       Navigator.push(context, route);
                     },
                   ),
-                  new Text("okudum anladım,",style: TextStyle(
-                    fontSize: 16,color: Color.fromRGBO(87, 51, 100, 100)
+                  new Text("okudum anladım.",style: TextStyle(
+                    fontSize: 12,
+                      color: Color.fromRGBO(132, 111, 132, 10)
                   ),)
 
                 ],
@@ -192,19 +194,19 @@ class _signUpState extends State<signUp> {
                           style: TextStyle(
 
                               fontSize: 16,
-                              color: Color.fromRGBO(87, 51, 100, 100))),
+                              color: Color.fromRGBO(250, 250, 250, 1))),
                       onPressed: () {
 
                         Route route = MaterialPageRoute(
                             builder: (context) => Login());
                         Navigator.push(context, route);
                       },
-                      color: Colors.blue,
+                      color: Color.fromRGBO(105, 95, 252, 100),
                     ),
                   ),
                   SizedBox(
                     width: width*0.2,
-                    height: height*0.05,
+                    height: height*0.1,
                   ),
                 ],
               )

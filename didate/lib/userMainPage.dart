@@ -1,4 +1,5 @@
 import 'package:didate/Login.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 class UserMainPage extends StatefulWidget {
@@ -39,15 +40,17 @@ class _UserMainPageState extends State<UserMainPage> {
               ),
               Container(
                 width: width,
-                height: height*0.09,
+                height: height*0.08,
                 child: Center(
-                  child: Text("KAYITLI KURUMLAR",textAlign: TextAlign.center,style: TextStyle(
+                  child: Text("Kayıtlı Kurumlarım",textAlign: TextAlign.center,style: TextStyle(
                     fontSize: 24,
+                    fontWeight: FontWeight.w500,
+                    fontStyle: FontStyle.italic,
                     color: Colors.white
                   ),),
                 ),
 
-                color: Colors.blue,
+                color: Color.fromRGBO(105, 95, 252, 100),
               ),
               SizedBox(
                 width: width,
@@ -181,23 +184,26 @@ class _UserMainPageState extends State<UserMainPage> {
         sayfaGoster(seciliSayfa),
 
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Color.fromRGBO(105, 95, 252, 100),
-        iconSize: 20,
+          backgroundColor: Color.fromRGBO(105, 95, 252, 100),
+          iconSize: 24,
 
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            backgroundColor: Colors.white,
-            icon: Icon(Icons.home),
-            title: Text('Randevu Al', style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),),
+            icon: Icon(Icons.home,
+              color:Color.fromRGBO(255, 255, 255, 1) ,),
+            title: Text('Randevu Al', style: TextStyle(fontWeight: FontWeight.w500,fontSize: 12,color:Color.fromRGBO(255, 255, 255, 1)),),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.search,
+              color:Color.fromRGBO(255, 255, 255, 1) ,
+            ),
+            title: Text('Keşfet', style: TextStyle(fontWeight: FontWeight.w500,fontSize: 12, color:Color.fromRGBO(255, 255, 255, 1) ,),),
           ),
           BottomNavigationBarItem(
 
-            icon: Icon(Icons.search),
-            title: Text('Keşfet', style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            title: Text('Profil', style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),),
+            icon: Icon(Icons.person,
+              color:Color.fromRGBO(255, 255, 255, 1) ,),
+            title: Text('Profil', style: TextStyle(fontWeight: FontWeight.w500,fontSize: 12,color:Color.fromRGBO(255, 255, 255, 1)),),
           ),
 
         ],

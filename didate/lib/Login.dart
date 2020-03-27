@@ -34,7 +34,7 @@ class _loginState extends State<Login> {
               ),
               SizedBox(
                 width: width,
-                height: height * 0.05,
+                height: height * 0.1,
               ),
               Row(
                 children: <Widget>[
@@ -45,8 +45,9 @@ class _loginState extends State<Login> {
                       "OTURUM AÇ",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontSize: 26,
-                          color: Color.fromRGBO(87, 51, 100, 100)),
+                          fontSize: 28,
+                          fontWeight: FontWeight.w500,
+                          color: Color.fromRGBO(87, 51, 100, 50)),
                     ),
                   )
                 ],
@@ -91,7 +92,7 @@ class _loginState extends State<Login> {
                       obscureText: true,
                       decoration: const InputDecoration(
                           prefixIcon: Icon(Icons.person),
-                          labelText: 'Password',
+                          labelText: 'Şifre',
                           hintText: "Şifre"),
                     ),
                   ),
@@ -113,12 +114,12 @@ class _loginState extends State<Login> {
                   ),
                     FlatButton(
 
-                      child: new Text("ŞİFRENİZİ Mİ UNUTTUNUZ",
+                      child: new Text("Şifrenizi mi unuttunuz ?",
 
                           style: TextStyle(
                             decoration: TextDecoration.underline,
                               fontSize: 16,
-                              color: Color.fromRGBO(87, 51, 100, 100))),
+                              color: Color.fromRGBO(132, 111, 132, 10))),
                       onPressed: () {
                         Route route =
                         MaterialPageRoute(builder: (context) => ForgetPassword());
@@ -145,17 +146,17 @@ class _loginState extends State<Login> {
                     width: width * 0.6,
                     height: height * 0.05,
                     child: FlatButton(
-                      child: new Text("GİRİŞ YAP",
+                      child: new Text("GİRİŞ",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 16,
-                              color: Color.fromRGBO(87, 51, 100, 100))),
+                              color: Color.fromRGBO(250, 250, 250, 1))),
                       onPressed: () {
                         Route route =
                             MaterialPageRoute(builder: (context) => UserMainPage());
                         Navigator.push(context, route);
                       },
-                      color: Colors.blue,
+                      color: Color.fromRGBO(105, 95, 252, 100),
                     ),
                   ),
                   SizedBox(
