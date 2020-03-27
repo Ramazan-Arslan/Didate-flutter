@@ -99,7 +99,6 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                       ),
                       new Container(
-                          color: Colors.amber,
                           height: height*0.45,
                           width: width*0.38,
                           alignment: Alignment(-1, 0),
@@ -128,7 +127,6 @@ class _ilkSayfaState extends State<ilkSayfa> {
                   Row(
                     children: <Widget>[
                       new Container(
-                        color: Colors.blue,
 
                         height: height*0.33,
                         width: width*0.62,
