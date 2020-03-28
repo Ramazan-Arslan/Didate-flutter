@@ -84,7 +84,7 @@ class _business1State extends State<business11> {
                                   Container(
                                     height: height * 0.2,
                                     width: width * 1,
-                                    child: Image.asset("assets/introPre1.jpg"),
+                                    child: Image.asset("assets/introPre1.png"),
 
                                   ),
                                 ],
@@ -140,10 +140,10 @@ class _business1State extends State<business11> {
                                                   width: width * 0.3,
                                                 ),
                                                 Container(
-                                                  height: height * 0.03,
+                                                  height: height * 0.036,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                      "assets/fullSwipeButton.jpg"),
+                                                      "assets/fullSwipeButton.png"),
                                                 ), SizedBox(
                                                   height: height * 0.1,
                                                   width: width * 0.02,
@@ -152,7 +152,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -164,7 +164,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -176,7 +176,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -205,7 +205,7 @@ class _business1State extends State<business11> {
                                     Container(
                                       height: height * 0.2,
                                       width: width * 1,
-                                      child: Image.asset("assets/introPre2.jpg"),
+                                      child: Image.asset("assets/introPre2.png"),
 
                                     ),
                                   ],
@@ -265,16 +265,16 @@ class _business1State extends State<business11> {
                                                     height: height * 0.03,
                                                     width: width * 0.1,
                                                     child: Image.asset(
-                                                        "assets/emptySwipeButton.jpg"),
+                                                        "assets/emptySwipeButton.png"),
                                                   ), SizedBox(
                                                     height: height * 0.1,
                                                     width: width * 0.02,
                                                   ),
                                                   Container(
-                                                    height: height * 0.03,
+                                                    height: height * 0.036,
                                                     width: width * 0.1,
                                                     child: Image.asset(
-                                                      "assets/fullSwipeButton.jpg",
+                                                      "assets/fullSwipeButton.png",
                                                       colorBlendMode: BlendMode
                                                           .darken,),
                                                   ),
@@ -286,7 +286,7 @@ class _business1State extends State<business11> {
                                                     height: height * 0.03,
                                                     width: width * 0.1,
                                                     child: Image.asset(
-                                                      "assets/emptySwipeButton.jpg",
+                                                      "assets/emptySwipeButton.png",
                                                       colorBlendMode: BlendMode
                                                           .darken,),
                                                   ),
@@ -298,7 +298,7 @@ class _business1State extends State<business11> {
                                                     height: height * 0.03,
                                                     width: width * 0.1,
                                                     child: Image.asset(
-                                                      "assets/emptySwipeButton.jpg",
+                                                      "assets/emptySwipeButton.png",
                                                       colorBlendMode: BlendMode
                                                           .darken,),
                                                   ),
@@ -327,7 +327,7 @@ class _business1State extends State<business11> {
                                   Container(
                                     height: height * 0.2,
                                     width: width * 1,
-                                    child: Image.asset("assets/introPre3.jpg"),
+                                    child: Image.asset("assets/introPre3.png"),
 
                                   ),
                                 ],
@@ -387,7 +387,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                      "assets/emptySwipeButton.jpg"),
+                                                      "assets/emptySwipeButton.png"),
                                                 ), SizedBox(
                                                   height: height * 0.1,
                                                   width: width * 0.02,
@@ -396,7 +396,19 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
+                                                    colorBlendMode: BlendMode
+                                                        .darken,),
+                                                ),
+                                                SizedBox(
+                                                  height: height * 0.1,
+                                                  width: width * 0.02,
+                                                ),
+                                                Container(
+                                                  height: height * 0.036,
+                                                  width: width * 0.1,
+                                                  child: Image.asset(
+                                                    "assets/fullSwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -408,19 +420,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/fullSwipeButton.jpg",
-                                                    colorBlendMode: BlendMode
-                                                        .darken,),
-                                                ),
-                                                SizedBox(
-                                                  height: height * 0.1,
-                                                  width: width * 0.02,
-                                                ),
-                                                Container(
-                                                  height: height * 0.03,
-                                                  width: width * 0.1,
-                                                  child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -449,7 +449,7 @@ class _business1State extends State<business11> {
                                   Container(
                                     height: height * 0.2,
                                     width: width * 1,
-                                    child: Image.asset("assets/introPre4.jpg"),
+                                    child: Image.asset("assets/introPre4.png"),
 
                                   ),
                                 ],
@@ -508,7 +508,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                      "assets/emptySwipeButton.jpg"),
+                                                      "assets/emptySwipeButton.png"),
                                                 ), SizedBox(
                                                   height: height * 0.1,
                                                   width: width * 0.02,
@@ -517,7 +517,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -529,7 +529,7 @@ class _business1State extends State<business11> {
                                                   height: height * 0.03,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/emptySwipeButton.jpg",
+                                                    "assets/emptySwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),
@@ -538,10 +538,10 @@ class _business1State extends State<business11> {
                                                   width: width * 0.02,
                                                 ),
                                                 Container(
-                                                  height: height * 0.03,
+                                                  height: height * 0.036,
                                                   width: width * 0.1,
                                                   child: Image.asset(
-                                                    "assets/fullSwipeButton.jpg",
+                                                    "assets/fullSwipeButton.png",
                                                     colorBlendMode: BlendMode
                                                         .darken,),
                                                 ),

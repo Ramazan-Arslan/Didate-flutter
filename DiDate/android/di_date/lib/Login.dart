@@ -15,11 +15,11 @@ class _loginState extends State<Login> {
 
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        /*decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage("assets/introUser2.png"),fit: BoxFit.fill
           )
-        ),
+        ),*/
         child: Stack(
 
           children: <Widget>[

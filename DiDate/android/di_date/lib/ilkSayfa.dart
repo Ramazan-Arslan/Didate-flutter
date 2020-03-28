@@ -138,7 +138,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                       builder: (context) => business11());
                                   Navigator.push(context, route);
                                 },
-                                child: Image.asset('assets/firstPagePre.jpg',colorBlendMode: BlendMode.darken, height: 175,
+                                child: Image.asset('assets/firstPagePree.png',colorBlendMode: BlendMode.darken, height: 175,
                                   color: Color.fromRGBO(255, 255, 255, 100),
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                         alignment: Alignment(0.7, 0),

@@ -133,10 +133,10 @@ class _User1State extends State<User1> {
                                               width: width * 0.4,
                                             ),
                                             Container(
-                                              height: height * 0.03,
+                                              height: height * 0.036,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                  "assets/fullSwipeButton.jpg"),
+                                                  "assets/fullSwipeButton.png"),
                                             ), SizedBox(
                                               height: height * 0.03,
                                               width: width * 0.02,
@@ -145,7 +145,7 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                "assets/emptySwipeButton.jpg",
+                                                "assets/emptySwipeButton.png",
                                                 colorBlendMode: BlendMode
                                                     .darken,),
                                             ),
@@ -236,16 +236,16 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                  "assets/emptySwipeButton.jpg"),
+                                                  "assets/emptySwipeButton.png"),
                                             ), SizedBox(
                                               height: height * 0.1,
                                               width: width * 0.02,
                                             ),
                                             Container(
-                                              height: height * 0.03,
+                                              height: height * 0.036,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                "assets/fullSwipeButton.jpg",
+                                                "assets/fullSwipeButton.png",
                                                 colorBlendMode: BlendMode
                                                     .darken,),
                                             ),

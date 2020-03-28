@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Didate-flutter.iml" filepath="$PROJECT_DIR$/Didate-flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Didate-flutter.iml" filepath="$PROJECT_DIR$/Didate-flutter.iml" group="Didate-flutter" />
     </modules>
   </component>
 </project>
