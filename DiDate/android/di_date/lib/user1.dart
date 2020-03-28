@@ -1,4 +1,4 @@
-import 'package:didate/Login.dart';
+import 'package:didate/login.dart';
 import 'package:didate/signUp.dart';
 import 'package:flutter/material.dart';
 class User1 extends StatefulWidget {
@@ -79,7 +79,7 @@ class _User1State extends State<User1> {
                               Container(
                                 height: height * 0.2,
                                 width: width * 1,
-                                child: Image.asset("assets/kk.png"),
+                                child: Image.asset("assets/introUser1.png"),
 
                               ),
                             ],
@@ -136,7 +136,7 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                  "assets/dd.jpg"),
+                                                  "assets/fullSwipeButton.jpg"),
                                             ), SizedBox(
                                               height: height * 0.03,
                                               width: width * 0.02,
@@ -145,7 +145,7 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                "assets/ee.jpg",
+                                                "assets/emptySwipeButton.jpg",
                                                 colorBlendMode: BlendMode
                                                     .darken,),
                                             ),
@@ -178,7 +178,7 @@ class _User1State extends State<User1> {
                               Container(
                                 height: height * 0.2,
                                 width: width * 1,
-                                child: Image.asset("assets/ll.png"),
+                                child: Image.asset("assets/introUser2.png"),
 
                               ),
                             ],
@@ -236,7 +236,7 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                  "assets/ee.jpg"),
+                                                  "assets/emptySwipeButton.jpg"),
                                             ), SizedBox(
                                               height: height * 0.1,
                                               width: width * 0.02,
@@ -245,7 +245,7 @@ class _User1State extends State<User1> {
                                               height: height * 0.03,
                                               width: width * 0.1,
                                               child: Image.asset(
-                                                "assets/dd.jpg",
+                                                "assets/fullSwipeButton.jpg",
                                                 colorBlendMode: BlendMode
                                                     .darken,),
                                             ),

@@ -1,4 +1,4 @@
-import 'package:didate/Login.dart';
+import 'package:didate/login.dart';
 import 'package:flutter/material.dart';
 class ForgetPassword extends StatefulWidget {
   @override
@@ -27,7 +27,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                       Container(
                         width: width,
                         height: height * 0.1,
-                        child: Image.asset("assets/facebook.png"),
+                        child: Image.asset("assets/exampleLogo.png"),
                       )
                     ],
                   ),

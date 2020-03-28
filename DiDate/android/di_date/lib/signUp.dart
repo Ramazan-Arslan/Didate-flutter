@@ -1,4 +1,4 @@
-import 'package:didate/Login.dart';
+import 'package:didate/login.dart';
 import 'package:flutter/material.dart';
 
 class signUp extends StatefulWidget {
@@ -32,7 +32,7 @@ class _signUpState extends State<signUp> {
                   Container(
                     width: width,
                     height: height * 0.1,
-                    child: Image.asset("assets/facebook.png"),
+                    child: Image.asset("assets/exampleLogo.png"),
                   )
                 ],
               ),

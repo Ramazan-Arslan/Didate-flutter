@@ -1,11 +1,10 @@
 import 'dart:ui';
 
 import 'package:didate/business11.dart';
-import 'package:didate/mainPage.dart';
 import 'package:didate/user1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'Login.dart';
+import 'login.dart';
 
 class ilkSayfa extends StatefulWidget {
   @override
@@ -95,7 +94,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                       builder: (context) => User1());
                                   Navigator.push(context, route);
                                 },
-                                child: Image.asset('assets/aa.jpg',colorBlendMode: BlendMode.darken, height: 175,
+                                child: Image.asset('assets/firstPageUser.jpg',colorBlendMode: BlendMode.darken, height: 175,
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                       ),
                       new Container(
@@ -139,7 +138,7 @@ class _ilkSayfaState extends State<ilkSayfa> {
                                       builder: (context) => business11());
                                   Navigator.push(context, route);
                                 },
-                                child: Image.asset('assets/bb.jpg',colorBlendMode: BlendMode.darken, height: 175,
+                                child: Image.asset('assets/firstPagePre.jpg',colorBlendMode: BlendMode.darken, height: 175,
                                   color: Color.fromRGBO(255, 255, 255, 100),
                                   width: double.maxFinite,fit: BoxFit.fitHeight,))),
                         alignment: Alignment(0.7, 0),
